@@ -1,1 +1,3 @@
-# Script untuk Crimson BadUSB (Tidak bisa untuk USB Rubber Ducky)
+# Payload untuk Crimson BadUSB
+
+Tidak dapat digunakan di Rubber Ducky dikarenakan beda bahasa pemograman
