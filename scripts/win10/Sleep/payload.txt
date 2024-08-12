@@ -1,0 +1,8 @@
+REM Membuat sistem masuk mode sleep/suspend
+WAITFOR_INIT
+DEFAULT_DELAY 500
+GUI r
+STRING cmd
+CTRL SHIFT ENTER
+STRING powercfg -h off && rundll32.exe powrprof.dll,SetSuspendState Sleep && exit
+ENTER
