@@ -1,5 +1,3 @@
-# Membuat sistem masuk mode sleep/suspend
-# DEFAULT_DELAY dapat diatur < 500 (tergantung spek sistem)
 WAITFOR_INIT
 DEFAULT_DELAY 500
 GUI r
