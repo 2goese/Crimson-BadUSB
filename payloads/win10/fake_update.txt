@@ -1,0 +1,9 @@
+WAITFOR_INIT
+DEFAULTDELAY 500
+GUI m
+GUI r
+STRING powershell
+CTRL SHIFT ENTER
+STRING Start-Process -FilePath "https://fakeupdate.net/win10ue/" ; exit 0
+ENTER
+F11
