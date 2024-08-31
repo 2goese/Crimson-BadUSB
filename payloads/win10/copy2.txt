@@ -1,0 +1,12 @@
+REM copy item into "E:" (for 2 disks)
+
+WAITFOR_INIT
+DEFAULTDELAY 500
+GUI r
+STRING powershell
+CTRL SHIFT ENTER
+STRING New-Item -ItemType Directory -Force -Path "E:\INSERT FOLDER NAME HERE"
+STRING Get-ChildItem -Path "X:PATH" -Recurse -Filter "WRITE HERE" | ForEach-Object { Copy-Item -Path $_.FullName -Destination "E:\Images\$($_.Name)" }
+ENTER
+STRING exit
+ENTER
